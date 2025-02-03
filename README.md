@@ -1,8 +1,8 @@
-🚀 TNT Template (Tauri + Next + Turbo)
+# 🚀 TNT Template (Tauri + Next + Turbo)
 
 A blazing-fast monorepo template combining Tauri, Next.js, and Turborepo for building modern cross-platform applications. Built with performance and developer experience in mind.
 
-✨ Features
+## ✨ Features
 
 - 🏗️ Monorepo Setup powered by Turborepo
 - ⚡ Tauri for native desktop applications
@@ -15,8 +15,9 @@ A blazing-fast monorepo template combining Tauri, Next.js, and Turborepo for bui
 - 🔄 Fast refresh and HMR
 - 🛠️ Type-safe development
 
-📁 Project Structure
+## 📁 Project Structure
 
+```shell
 tnt-template/
 ├── apps/
 │ ├── desktop/ # Tauri desktop application
@@ -28,10 +29,11 @@ tnt-template/
 ├── .gitignore
 ├── package.json
 └── turbo.json
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Prerequisites
+### Prerequisites
 
 - Node.js 18 or later
 - pnpm 8 or later
@@ -40,45 +42,41 @@ Prerequisites
   - macOS: Xcode Command Line Tools
   - Linux: build-essential package
 
-Installation
+### Installation
 
 1. Clone the repository:
-   git clone https://github.com/imfunniee/tnt-template
-   cd tnt-template
+   git clone https://github.com/imfunniee/tnt-template xyz
+   cd xyz
 
 2. Install dependencies:
    pnpm install
 
 3. Start development:
 
-# For web application
+### Development
 
-pnpm web:dev
-
-# For desktop application
-
-pnpm desktop:dev
-
-Available Scripts
-
-# Development
-
+```shell
 pnpm web:dev # Start Next.js development server
 pnpm desktop:dev # Start Tauri development
+```
 
-# Building
+### Building
 
+```shell
 pnpm web:build # Build web application
 pnpm desktop:build # Build desktop application
+```
 
-# Utilities
+### Utilities
 
+```shell
 pnpm clean-compile # Clean all build outputs using Turbo
 pnpm format # Format code with Prettier
 pnpm sort:package # Sort package.json files
 pnpm spellcheck # Run spellcheck on TypeScript files
+```
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Framework: Next.js 14 (https://nextjs.org/)
 - Desktop: Tauri 2.0 (https://tauri.app/)
@@ -87,73 +85,6 @@ pnpm spellcheck # Run spellcheck on TypeScript files
 - UI Components: shadcn/ui (https://ui.shadcn.com/)
 - Language: TypeScript (https://www.typescriptlang.org/)
 
-📝 Development Guide
-
-Working with Workspaces
-
-Adding Dependencies:
-
-# Add to specific workspace
-
-pnpm add package-name --filter workspace-name
-
-# Add to all workspaces
-
-pnpm add package-name -w
-
-# Add shared dependency to specific workspace
-
-pnpm add @repo/ui --filter web
-
-Shared Packages
-
-- @repo/ui: Shared UI component library
-- @repo/eslint-config: Base ESLint configuration
-- @repo/typescript-config: Shared TypeScript configuration
-
-Desktop Development (Tauri)
-
-The desktop application is configured in apps/desktop/src-tauri/. Key files:
-
-- tauri.conf.json - Tauri configuration
-- src/main.rs - Rust entry point
-- src/lib.rs - Rust functions
-
-Web Development
-
-The web application in apps/web/ follows Next.js 14 conventions:
-
-- app/ - App router pages and layouts
-- components/ - React components
-- public/ - Static assets
-
-Quality Checks
-
-The template includes several quality-of-life improvements:
-
-- Automatic package.json sorting (pnpm sort:package)
-- Spellchecking for TypeScript files (pnpm spellcheck)
-- Code formatting with Prettier (pnpm format)
-
-🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch: git checkout -b feature/amazing-feature
-3. Commit your changes: git commit -m 'feat: add amazing feature'
-4. Push to the branch: git push origin feature/amazing-feature
-5. Open a pull request
-
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-⭐ Support
-
-If you found this template helpful, please give it a ⭐️!
-
-🙏 Acknowledgments
-
-- Tauri (https://tauri.app/)
-- Next.js (https://nextjs.org/)
-- Turborepo (https://turbo.build/repo)
-- shadcn/ui (https://ui.shadcn.com/)
