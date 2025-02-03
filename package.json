@@ -1,21 +1,27 @@
 {
-  "name": "@imfunniee/next-t2-template",
-  "private": true,
-  "scripts": {
-    "web:dev": "pnpm run --filter=web dev",
-    "web:build": "pnpm run --filter=web build",
-    "desktop:dev": "pnpm run --filter=desktop dev",
-    "desktop:build": "pnpm run --filter=desktop build",
-    "clean-compile": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
-  },
-  "devDependencies": {
-    "prettier": "^3.4.2",
-    "turbo": "^2.4.0",
-    "typescript": "5.7.3"
-  },
-  "packageManager": "pnpm@9.0.0",
-  "engines": {
-    "node": ">=18"
-  }
+	"name": "@imfunniee/next-t2-template",
+	"description": "A template for Tauri + Next + Turbo",
+	"license": "MIT",
+	"author": "@imfunniee",
+	"scripts": {
+		"clean-compile": "turbo clean",
+		"desktop:build": "pnpm run --filter=desktop build",
+		"desktop:dev": "pnpm run --filter=desktop dev",
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"sort:package": "npx sort-package-json \"**/package.json\" \"!**/node_modules/**\"",
+		"spellcheck": "cspell \"**/*.{tsx,ts}\"",
+		"web:build": "pnpm run --filter=web build",
+		"web:dev": "pnpm run --filter=web dev"
+	},
+	"devDependencies": {
+		"cspell": "^8.8.4",
+		"dotenv-cli": "^7.4.4",
+		"prettier": "^3.4.2",
+		"turbo": "^2.4.0",
+		"typescript": "5.7.3"
+	},
+	"packageManager": "pnpm@9.0.0",
+	"engines": {
+		"node": ">=18"
+	}
 }

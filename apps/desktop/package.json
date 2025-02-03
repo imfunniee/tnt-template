@@ -2,13 +2,13 @@
   "name": "desktop",
   "version": "0.0.0",
   "description": "",
-  "scripts": {
-    "dev": "tauri dev",
-    "build": "tauri build"
-  },
   "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
+  "scripts": {
+    "build": "tauri build",
+    "dev": "tauri dev"
+  },
   "devDependencies": {
     "@tauri-apps/cli": "^2.2.7"
   }

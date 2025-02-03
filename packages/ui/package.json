@@ -1,8 +1,8 @@
 {
   "name": "@imfunniee/ui",
   "version": "0.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "exports": {
     "./components/*": "./src/components/*.tsx",
     "./hooks/*": "./src/hooks/*.ts",
@@ -13,9 +13,9 @@
     "./tailwind.config": "./tailwind.config.ts"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit",
+    "generate:component": "turbo gen react-component",
+    "lint": "eslint . --max-warnings 0",
     "shadcn": "pnpm dlx shadcn@latest"
   },
   "dependencies": {
