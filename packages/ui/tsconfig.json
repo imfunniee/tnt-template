@@ -1,11 +1,11 @@
 {
-  "extends": "@boringhand/typescript-config/react-library.json",
+  "extends": "@imfunniee/typescript-config/react-library.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
     "baseUrl": ".",
     "paths": {
-      "@boringhand/ui/*": ["./src/*"]
+      "@imfunniee/ui/*": ["./src/*"]
     }
   },
   "include": ["src"],

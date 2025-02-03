@@ -11,10 +11,10 @@
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@boringhand/ui/components",
-    "hooks": "@boringhand/ui/hooks",
-    "utils": "@boringhand/ui/lib/utils",
-    "lib": "@boringhand/ui/lib",
-    "ui": "@boringhand/ui/components"
+    "components": "@imfunniee/ui/components",
+    "hooks": "@imfunniee/ui/hooks",
+    "utils": "@imfunniee/ui/lib/utils",
+    "lib": "@imfunniee/ui/lib",
+    "ui": "@imfunniee/ui/components"
   }
 }

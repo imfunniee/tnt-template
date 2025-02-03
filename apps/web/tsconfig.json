@@ -1,10 +1,10 @@
 {
-  "extends": "@boringhand/typescript-config/nextjs.json",
+  "extends": "@imfunniee/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@boringhand/ui/*": ["../../packages/ui/src/*"]
+      "@imfunniee/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
       {

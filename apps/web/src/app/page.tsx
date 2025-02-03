@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@boringhand/ui/components/button";
+import { Button } from "@imfunniee/ui/components/button";
 
 export default function Home() {
   return (

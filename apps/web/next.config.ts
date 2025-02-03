@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["@boringhand/ui"],
+  transpilePackages: ["@imfunniee/ui"],
   output: "export",
   images: {
     unoptimized: true,

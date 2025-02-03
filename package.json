@@ -1,11 +1,12 @@
 {
-  "name": "@boringhand/next-t2-template",
+  "name": "@imfunniee/next-t2-template",
   "private": true,
   "scripts": {
-    "web:dev": "pnpm dev --filter web",
-    "web:build": "pnpm build --filter web",
-    "desktop:dev": "pnpm dev --filter desktop",
-    "desktop:build": "pnpm build --filter desktop",
+    "web:dev": "pnpm run --filter=web dev",
+    "web:build": "pnpm run --filter=web build",
+    "desktop:dev": "pnpm run --filter=desktop dev",
+    "desktop:build": "pnpm run --filter=desktop build",
+    "clean-compile": "turbo clean",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
