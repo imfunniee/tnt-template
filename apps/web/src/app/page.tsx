@@ -1,7 +1,6 @@
 "use client"
 
 import React from "react"
-import dynamic from "next/dynamic"
 
 import { Button } from "@imfunniee/ui/components/button"
 import { TitleBar } from "@/src/components/title-bar"
